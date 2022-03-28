@@ -9,7 +9,6 @@ from tkinter import *
 from tkinter import filedialog
 import tkinter as tk
 import functools
-from matplotlib.pyplot import text
 import numpy as np
 
 # Funcion para abrir el explorador y guardar la ruta
