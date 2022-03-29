@@ -92,7 +92,7 @@ def tercera_v(master,  callback=None, args=(), kwargs={}):
         mensaje = cadena.lower()
 
         descifrado = ""
-        clave = 26-clave
+        clave = 26-clave 
         for simbolo in mensaje:
             if simbolo.isalpha(): # isalpha devuelve si la cadena es una minuscula o mayuscula entre A y Z, si no es alfabetico, entonces isalpha regresa false
                 num = ord(simbolo)
